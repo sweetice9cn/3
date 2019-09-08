@@ -1,0 +1,166 @@
+body {
+    background-color: #8b9dc3;
+}
+
+#title {
+    border-radius: 10px 10px 10px 10px;
+    border: none;
+    width: 900px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: 0 auto;   
+    text-align: left;
+}
+ 
+#wrapper {
+    width: 900px;
+    margin: 0 auto;             
+}
+ 
+#menu {
+    border: 1px solid #000;
+    border-radius: 10px 10px 0px 0px;
+    border-bottom: none;        /* avoid a double border */
+    clear: both;                /* clear:both makes sure the content div doesn't float next to this one but stays under it */
+    height: 42px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    margin: 0 auto; 
+    background-color: #bbbbbb;
+    font-size: 80%;
+}
+ 
+#menu a:hover {
+    background-color: #568F8F;
+}
+
+#items {
+    height: 21px;
+    float: left;
+}
+
+#menuopts {
+    float: left;
+    height: 19px;
+    width: 100%;
+}
+
+#searchbar {  
+    float: left;
+    width: 460px;
+    color: #FFF;
+    font-family: Arial;
+} 
+ 
+#userbar {
+    float: right;
+    text-align: right;
+    width: 350px;
+    color: #FFF;
+    font-family: Arial;
+    padding-top: 3px;
+}
+
+#content {
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 0px 0px 10px 10px;
+    float: left;
+    font-family: Arial;
+    margin-left: -15px;         /* equals to minus #menu.padding-left */
+    margin-top: 7px;
+    padding-left: 40px;
+    padding-right: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: left;
+    width: 98.8%;                /* fill up the entire div */
+}
+ 
+#footer {
+    clear: both;              /* clear:both makes sure the content div doesn't float next to this one but stays under it */
+    width: 100%;
+    height: 10px;
+    margin-left: 5px;
+    padding-left: 5px;
+    padding-right: 0px;
+    padding-top: 5px;
+    text-align: left;
+    font-size: 65%;
+}
+ 
+/* begin table styles */
+table {
+    border-collapse: collapse;
+    text-align: center; 
+    width: 94%;
+}
+ 
+table a {
+    color: #808080;
+}
+ 
+table a:hover {
+    color:#373737;
+    text-decoration: none;
+}
+ 
+th {
+    background-color: #B40E1F;
+    color: #F0F0F0;
+}
+ 
+td {
+    background-color: #fdd1d5;
+    padding: 5px;
+}
+ 
+/* Begin font styles */
+h1, #footer {
+    font-family: Arial;
+    color: #FFF;
+}
+ 
+h3 {margin: 0; padding: 0;}
+ 
+/* Menu styles */
+.item {
+    border-radius: 5px;
+    background-color: #666666;
+    border: 1px solid #032472;
+    color: #FFF;
+    font-family: Arial;
+    padding: 1px;
+    padding-left: 3px;
+    padding-right: 3px;
+    text-decoration: none;
+}
+ 
+.leftpart {
+    width: 70%;
+}
+ 
+.rightpart {
+    width: 30%;
+}
+ 
+.small {
+    font-size: 75%;
+    color: #373737;
+}
+ 
+.topic-post {
+    height: 100px;
+    overflow: auto;
+}
+ 
+.post-content {
+    padding: 30px;
+}
+ 
+textarea {
+    width: 500px;
+    height: 200px;
+}
