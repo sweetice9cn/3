@@ -146,7 +146,7 @@ Then compare new cid and old cid to check
 Print the numbers to views</p> 
 <br><img src="pics/58.png"></br>
 <br>(10)	Dynamic, multiple/single selection bar implementation</br>
-Let users can choose multiple/single values at a time. And the options are dynamic (depends on the actual database data).    
+Let users choose multiple/single values at a time. Options are dynamic (depends on the actual database data).    
 <br><img src="pics/59.png"></br>
 <br><img src="pics/60.png"></br>
 <br>(11)	Logistic of add admins</br>
